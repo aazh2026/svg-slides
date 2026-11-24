@@ -1,0 +1,364 @@
+{
+  "access-model.svg": {
+    "layout": "判定流程与并列权限例外",
+    "diagram_elements": 56,
+    "note_baseline": 4,
+    "note_target": 8,
+    "notes_actual": 8,
+    "notes": [
+      {
+        "title": "权限集组",
+        "body": "将可复用的对象权限按岗位组合。",
+        "evidence": "E1"
+      },
+      {
+        "title": "记录所有权",
+        "body": "所有者仍需具备对象编辑权限。",
+        "evidence": "E2"
+      },
+      {
+        "title": "字段表现",
+        "body": "能打开商机的用户仍可能看不到金额。",
+        "evidence": "E1"
+      },
+      {
+        "title": "对象级特权",
+        "body": "Modify All 将特权范围限定在指定对象。",
+        "evidence": "E1"
+      },
+      {
+        "title": "全局特权",
+        "body": "View All Data 扩展到组织的数据。",
+        "evidence": "E1"
+      },
+      {
+        "title": "外部许可证",
+        "body": "高容量用户可按账户或联系人关联匹配。",
+        "evidence": "E1"
+      },
+      {
+        "title": "候选集合",
+        "body": "限制规则对用户已有访问进一步筛选。",
+        "evidence": "E5"
+      },
+      {
+        "title": "验证建议",
+        "body": "分别用读取、编辑和字段访问验证同条记录。",
+        "evidence": "E1"
+      }
+    ]
+  },
+  "sharing-baseline.svg": {
+    "layout": "继承树与基线侧栏",
+    "diagram_elements": 59,
+    "note_baseline": 4,
+    "note_target": 8,
+    "notes_actual": 8,
+    "notes": [
+      {
+        "title": "私有基线",
+        "body": "同级用户可通过共享规则等获得例外访问。",
+        "evidence": "E2"
+      },
+      {
+        "title": "公开只读",
+        "body": "拥有对象编辑权的同事也只获得记录读取权。",
+        "evidence": "E2"
+      },
+      {
+        "title": "访问级别",
+        "body": "下属只有只读的记录，主管继承后仍为只读。",
+        "evidence": "E2"
+      },
+      {
+        "title": "继承来源",
+        "body": "角色向上继承覆盖所有权及下属获共享的记录。",
+        "evidence": "E2"
+      },
+      {
+        "title": "角色建模",
+        "body": "按经理需要查看的数据范围划分角色分支。",
+        "evidence": "E2"
+      },
+      {
+        "title": "队列持有",
+        "body": "受支持对象的记录可由适格成员领取处理。",
+        "evidence": "E2"
+      },
+      {
+        "title": "自定义对象",
+        "body": "关闭层级授权会切断此对象的角色继承。",
+        "evidence": "E2"
+      },
+      {
+        "title": "变更验证",
+        "body": "OWD 改动后以代表用户复测并记录重算耗时。",
+        "evidence": "E2"
+      }
+    ]
+  },
+  "sharing-selection.svg": {
+    "layout": "全宽选型矩阵",
+    "diagram_elements": 67,
+    "note_baseline": 3,
+    "note_target": 6,
+    "notes_actual": 6,
+    "notes": [
+      {
+        "title": "所有者规则",
+        "body": "改变记录所有者可能改变规则的命中范围。",
+        "evidence": "E3"
+      },
+      {
+        "title": "条件规则",
+        "body": "用业务字段定义共享范围，接收方单独配置。",
+        "evidence": "E3"
+      },
+      {
+        "title": "公共组",
+        "body": "多层嵌套会增加成员计算的维护成本。",
+        "evidence": "E3"
+      },
+      {
+        "title": "团队级别",
+        "body": "同一商机不同成员可获得不同的访问级别。",
+        "evidence": "E3"
+      },
+      {
+        "title": "手工授权",
+        "body": "可按记录授予指定主体只读或读写访问。",
+        "evidence": "E3"
+      },
+      {
+        "title": "代码边界",
+        "body": "以外部系统作权威来源时需同步添加与撤销。",
+        "evidence": "E3"
+      }
+    ]
+  },
+  "sales-coverage.svg": {
+    "layout": "双区域汇聚与角色纵线",
+    "diagram_elements": 58,
+    "note_baseline": 3,
+    "note_target": 6,
+    "notes_actual": 6,
+    "notes": [
+      {
+        "title": "管理维度",
+        "body": "角色结构按管理访问需求分支。",
+        "evidence": "E2"
+      },
+      {
+        "title": "销售维度",
+        "body": "区域层级适合矩阵式覆盖和独立汇总。",
+        "evidence": "E4"
+      },
+      {
+        "title": "独立维护",
+        "body": "启用区域管理后仍需维护角色层级。",
+        "evidence": "E4"
+      },
+      {
+        "title": "区域成员",
+        "body": "跨业务线支援可按区域子分支建模。",
+        "evidence": "E4"
+      },
+      {
+        "title": "逐笔授权",
+        "body": "临时售前加入商机团队即可获得该笔访问。",
+        "evidence": "E4"
+      },
+      {
+        "title": "设计建议",
+        "body": "复用区域覆盖前先确认它已满足协作范围。",
+        "evidence": "E4"
+      }
+    ]
+  },
+  "sharing-lifecycle.svg": {
+    "layout": "双栏前后状态图",
+    "diagram_elements": 51,
+    "note_baseline": 4,
+    "note_target": 8,
+    "notes_actual": 8,
+    "notes": [
+      {
+        "title": "清理触发",
+        "body": "记录转移所有权时平台清理 Manual 共享。",
+        "evidence": "E3"
+      },
+      {
+        "title": "残余访问",
+        "body": "Manual 清除后用户仍可能经其他机制可见。",
+        "evidence": "E3"
+      },
+      {
+        "title": "代码写入",
+        "body": "使用 Manual 原因的代码记录也随转移清除。",
+        "evidence": "E3"
+      },
+      {
+        "title": "界面管理",
+        "body": "共享按钮可编辑或删除代码写入的 Manual。",
+        "evidence": "E3"
+      },
+      {
+        "title": "自定义原因",
+        "body": "其适用范围是自定义对象，可按业务原因维护。",
+        "evidence": "E3"
+      },
+      {
+        "title": "团队数据",
+        "body": "界面创建团队成员时同时创建成员与共享记录。",
+        "evidence": "E3"
+      },
+      {
+        "title": "逐笔团队",
+        "body": "每条账户、商机或案例记录只有一个原生团队。",
+        "evidence": "E3"
+      },
+      {
+        "title": "验证建议",
+        "body": "交接后对照团队名单、共享原因和实际读取权。",
+        "evidence": "E3"
+      }
+    ]
+  },
+  "visibility-boundaries.svg": {
+    "layout": "集合筛选与隐式访问双面板",
+    "diagram_elements": 63,
+    "note_baseline": 4,
+    "note_target": 8,
+    "notes_actual": 8,
+    "notes": [
+      {
+        "title": "过滤前提",
+        "body": "限制规则从已有访问中筛选，未授权记录仍不可见。",
+        "evidence": "E5"
+      },
+      {
+        "title": "对象边界",
+        "body": "限制规则适用于受支持的对象及组织版本。",
+        "evidence": "E5"
+      },
+      {
+        "title": "界面验证",
+        "body": "同步检查列表、查找、相关列表和报表。",
+        "evidence": "E5"
+      },
+      {
+        "title": "查询验证",
+        "body": "核对搜索以及 SOQL、SOSL 的返回结果。",
+        "evidence": "E5"
+      },
+      {
+        "title": "父级授予",
+        "body": "受支持子记录的访问可带出关联账户可见性。",
+        "evidence": "E5"
+      },
+      {
+        "title": "子级授予",
+        "body": "账户所有者按其角色设置获子记录访问。",
+        "evidence": "E5"
+      },
+      {
+        "title": "配置粒度",
+        "body": "联系人、商机与案例可分别配置访问级别。",
+        "evidence": "E5"
+      },
+      {
+        "title": "账户树边界",
+        "body": "访问父账户本身不会带出子账户访问。",
+        "evidence": "E5"
+      }
+    ]
+  },
+  "scale-recalculation.svg": {
+    "layout": "横向发布阶段时间线",
+    "diagram_elements": 57,
+    "note_baseline": 3,
+    "note_target": 6,
+    "notes_actual": 6,
+    "notes": [
+      {
+        "title": "触发源",
+        "body": "角色、区域、组、规则和所有权变化都可能触发重算。",
+        "evidence": "E6"
+      },
+      {
+        "title": "变更类型",
+        "body": "成员调整与结构重组的级联范围应分别评估。",
+        "evidence": "E6"
+      },
+      {
+        "title": "倾斜治理",
+        "body": "超万条的大所有者尽量不设角色，必要时置顶独立分支。",
+        "evidence": "E6"
+      },
+      {
+        "title": "性能验证",
+        "body": "大体量账户并使用团队或区域时先用沙箱测时。",
+        "evidence": "E6"
+      },
+      {
+        "title": "延迟机制",
+        "body": "符合条件时由 Salesforce Support 启用延迟重算。",
+        "evidence": "E6"
+      },
+      {
+        "title": "验收建议",
+        "body": "重算后用代表用户验证授权新增及撤销。",
+        "evidence": "E6"
+      }
+    ]
+  },
+  "access-troubleshooting.svg": {
+    "layout": "带终止分支的排障决策树",
+    "diagram_elements": 60,
+    "note_baseline": 4,
+    "note_target": 8,
+    "notes_actual": 8,
+    "notes": [
+      {
+        "title": "对象入口",
+        "body": "先核对许可证、商机读取权和实际用户身份。",
+        "evidence": "E1"
+      },
+      {
+        "title": "字段分流",
+        "body": "只有金额不可见时优先检查字段级安全。",
+        "evidence": "E1"
+      },
+      {
+        "title": "层级证据",
+        "body": "对照请求者和当前所有者所在的角色分支。",
+        "evidence": "E7"
+      },
+      {
+        "title": "规则证据",
+        "body": "核对记录是否命中规则、用户是否属于接收组。",
+        "evidence": "E7"
+      },
+      {
+        "title": "团队与区域",
+        "body": "同时核对成员身份和记录关联范围。",
+        "evidence": "E7"
+      },
+      {
+        "title": "交接例外",
+        "body": "所有者刚变更时检查是否清理了 Manual。",
+        "evidence": "E3"
+      },
+      {
+        "title": "额外过滤",
+        "body": "已获得访问仍不可见时检查适用的限制规则。",
+        "evidence": "E5"
+      },
+      {
+        "title": "复测建议",
+        "body": "对照应可见与应隔离的用户，查找过度授权。",
+        "evidence": "E7"
+      }
+    ]
+  }
+}

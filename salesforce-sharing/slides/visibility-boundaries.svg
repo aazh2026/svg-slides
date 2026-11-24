@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>限制规则收窄可见记录，隐式共享补充账户访问</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">限制规则收窄可见记录，隐式共享补充账户访问</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">记录可见性边界｜检查过滤条件与原生关联授权  [E5]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">6</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜用代表性用户验证账户、子记录及敏感对象的实际可见范围。</text>
+  <rect x="48" y="120" width="1184" height="34" rx="0" fill="#303338" />
+  <text x="57" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">机制</text>
+  <text x="338.905" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">记录可见性的变化</text>
+  <text x="789.952" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">适用边界</text>
+  <rect x="48" y="154" width="281.905" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="215.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">限制规则</text>
+  <rect x="329.905" y="154" width="451.048" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="338.905" y="215.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">从已授权记录中保留满足条件的记录</text>
+  <rect x="780.952" y="154" width="451.048" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="789.952" y="215.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">对象支持范围及规则数量因对象、版本而异</text>
+  <rect x="48" y="269" width="281.905" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="330.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">父级隐式共享</text>
+  <rect x="329.905" y="269" width="451.048" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="338.905" y="330.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">可访问联系人、商机或案例时，可获得关联账户的可见性</text>
+  <rect x="780.952" y="269" width="451.048" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="789.952" y="330.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">仅对账户及规定关联关系生效</text>
+  <rect x="48" y="384" width="281.905" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="445.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">子级隐式共享</text>
+  <rect x="329.905" y="384" width="451.048" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="338.905" y="445.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">账户所有者按其角色设置获得联系人、商机或案例访问</text>
+  <rect x="780.952" y="384" width="451.048" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="789.952" y="445.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">可分别配置查看、编辑或无访问，权限仍受对象设置约束</text>
+  <rect x="48" y="499" width="281.905" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="560.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">账户树</text>
+  <rect x="329.905" y="499" width="451.048" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="338.905" y="560.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">父子账户关联用于表达账户关系</text>
+  <rect x="780.952" y="499" width="451.048" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="789.952" y="560.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">访问子账户需要独立的授权依据</text>
+</svg>

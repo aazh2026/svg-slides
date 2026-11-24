@@ -1,0 +1,81 @@
+{
+  "access-model.svg": {
+    "format": "判定流程与并列权限例外",
+    "total": 56,
+    "elements": {
+      "text": 31,
+      "rect": 11,
+      "line": 7,
+      "polygon": 7
+    }
+  },
+  "sharing-baseline.svg": {
+    "format": "继承树与基线侧栏",
+    "total": 59,
+    "elements": {
+      "text": 27,
+      "rect": 12,
+      "line": 15,
+      "polygon": 5
+    }
+  },
+  "sharing-selection.svg": {
+    "format": "全宽选型矩阵",
+    "total": 67,
+    "elements": {
+      "text": 35,
+      "rect": 32
+    }
+  },
+  "sales-coverage.svg": {
+    "format": "双区域汇聚与角色纵线",
+    "total": 58,
+    "elements": {
+      "text": 30,
+      "rect": 10,
+      "line": 11,
+      "polygon": 7
+    }
+  },
+  "sharing-lifecycle.svg": {
+    "format": "双栏前后状态图",
+    "total": 51,
+    "elements": {
+      "text": 28,
+      "rect": 11,
+      "line": 6,
+      "polygon": 6
+    }
+  },
+  "visibility-boundaries.svg": {
+    "format": "集合筛选与隐式访问双面板",
+    "total": 63,
+    "elements": {
+      "text": 33,
+      "rect": 14,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "scale-recalculation.svg": {
+    "format": "横向发布阶段时间线",
+    "total": 57,
+    "elements": {
+      "text": 29,
+      "line": 9,
+      "rect": 11,
+      "circle": 4,
+      "polygon": 4
+    }
+  },
+  "access-troubleshooting.svg": {
+    "format": "带终止分支的排障决策树",
+    "total": 60,
+    "elements": {
+      "text": 24,
+      "rect": 10,
+      "line": 16,
+      "polygon": 10
+    }
+  }
+}

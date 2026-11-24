@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>OWD 设定记录访问基线，所有权与层级补充访问</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">OWD 设定记录访问基线，所有权与层级补充访问</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">组织范围默认值｜以拥有商机读写对象权限的用户为例  [E2]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">2</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜先确认跨所有者的默认访问，变更 OWD 前评估共享重算时间。</text>
+  <rect x="48" y="120" width="1184" height="34" rx="0" fill="#303338" />
+  <text x="57" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">机制</text>
+  <text x="373.515" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">访问效果</text>
+  <text x="807.257" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">设计边界</text>
+  <rect x="48" y="154" width="316.515" height="92" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="203.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">OWD · Private</text>
+  <rect x="364.515" y="154" width="433.743" height="92" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="373.515" y="203.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">其他用户的记录需要额外访问依据</text>
+  <rect x="798.257" y="154" width="433.743" height="92" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="807.257" y="203.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">适用于需要按归属隔离的对象</text>
+  <rect x="48" y="246" width="316.515" height="92" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="295.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">OWD · Public Read Only</text>
+  <rect x="364.515" y="246" width="433.743" height="92" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="373.515" y="295.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">在对象权限允许时，用户默认可读他人的商机</text>
+  <rect x="798.257" y="246" width="433.743" height="92" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="807.257" y="295.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">编辑需要所有权或额外授权</text>
+  <rect x="48" y="338" width="316.515" height="92" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="387.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">OWD · Controlled by Parent</text>
+  <rect x="364.515" y="338" width="433.743" height="92" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="373.515" y="387.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">访问取决于关联父记录</text>
+  <rect x="798.257" y="338" width="433.743" height="92" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="807.257" y="387.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">是否可选取决于对象与关系</text>
+  <rect x="48" y="430" width="316.515" height="92" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="479.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">所有权与队列</text>
+  <rect x="364.515" y="430" width="433.743" height="92" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="373.515" y="479.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">记录由用户或适用的队列持有，队列成员可领取记录</text>
+  <rect x="798.257" y="430" width="433.743" height="92" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="807.257" y="479.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">对象权限限制可执行的操作</text>
+  <rect x="48" y="522" width="316.515" height="92" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="571.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">角色层级</text>
+  <rect x="364.515" y="522" width="433.743" height="92" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="373.515" y="571.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">上级继承下级所有及已共享记录的相应访问级别</text>
+  <rect x="798.257" y="522" width="433.743" height="92" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="807.257" y="571.6" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">自定义对象可关闭角色层级继承，同级不会自动互访</text>
+</svg>

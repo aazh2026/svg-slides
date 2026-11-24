@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>限制规则从已授权集合筛选，账户关联可触发隐式共享</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">限制规则从已授权集合筛选，账户关联可触发隐式共享</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">边界对照｜蓝色为获得访问的依据，紫色为过滤条件及结果  [E5]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">6</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="204" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">既有条件</text>
+    <text x="554" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">机制或关系</text>
+    <text x="904" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">可见范围的变化</text>
+    <text x="62" y="194" font-family="微软雅黑" font-size="14" font-weight="700" fill="#6b5b95" text-anchor="start">规则过滤</text>
+    <line x1="48" y1="232" x2="1232" y2="232" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="151" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">项目人员已获三条项目记录</text>
+    <text x="216" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">由默认值与共享机制授予</text>
+    <text x="504" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#6b5b95" text-anchor="middle">评估记录</text>
+    <line x1="463" y1="187" x2="538" y2="187" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="545,187 538,183 538,191" fill="#6b5b95" />
+    <rect x="554" y="151" width="250" height="70" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#6b5b95" text-anchor="start">限制规则作用于该用户</text>
+    <text x="566" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">仅保留其所属区域的记录</text>
+    <text x="854" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#6b5b95" text-anchor="middle">筛选结果</text>
+    <line x1="813" y1="187" x2="888" y2="187" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="895,187 888,183 888,191" fill="#6b5b95" />
+    <rect x="904" y="151" width="328" height="70" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="173" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#6b5b95" text-anchor="start">仅返回匹配记录</text>
+    <rect x="916" y="183" width="94" height="26" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="963" y="201" font-family="微软雅黑" font-size="12" font-weight="700" fill="#6b5b95" text-anchor="middle">华东 · 可见</text>
+    <rect x="1016" y="183" width="94" height="26" rx="4" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="1063" y="201" font-family="微软雅黑" font-size="12" font-weight="700" fill="#60666d" text-anchor="middle">华北 · 过滤</text>
+    <rect x="1116" y="183" width="94" height="26" rx="4" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="1163" y="201" font-family="微软雅黑" font-size="12" font-weight="700" fill="#60666d" text-anchor="middle">华南 · 过滤</text>
+    <text x="62" y="286" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">从子到父</text>
+    <line x1="48" y1="324" x2="1232" y2="324" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="243" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">用户已获该商机的访问</text>
+    <text x="216" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">商机关联账户 A</text>
+    <text x="504" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">隐式授予</text>
+    <line x1="463" y1="279" x2="538" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,279 538,275 538,283" fill="#0070c0" />
+    <rect x="554" y="243" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">原生父级隐式共享</text>
+    <text x="566" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">由商机等受支持子对象触发</text>
+    <text x="854" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">父级可见</text>
+    <line x1="813" y1="279" x2="888" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,279 888,275 888,283" fill="#0070c0" />
+    <rect x="904" y="243" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">用户可看到关联账户 A</text>
+    <text x="916" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">账户访问来自子记录关系</text>
+    <text x="62" y="378" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">从父到子</text>
+    <line x1="48" y1="416" x2="1232" y2="416" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="335" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">小林是账户 A 的所有者</text>
+    <text x="216" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">其角色配置商机子记录为只读</text>
+    <text x="504" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">检查角色</text>
+    <line x1="463" y1="371" x2="538" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,371 538,367 538,375" fill="#0070c0" />
+    <rect x="554" y="335" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">原生子级隐式共享</text>
+    <text x="566" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">联系人、商机、案例按角色分别配置</text>
+    <text x="854" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">子级可见</text>
+    <line x1="813" y1="371" x2="888" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,371 888,367 888,375" fill="#0070c0" />
+    <rect x="904" y="335" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">小林可读关联商机</text>
+    <text x="916" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">实际操作仍受对象权限约束</text>
+    <text x="62" y="470" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">账户树</text>
+    <line x1="48" y1="508" x2="1232" y2="508" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="427" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">用户能访问父账户 A</text>
+    <text x="216" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">账户 B 的父账户是 A</text>
+    <text x="504" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">检查关系</text>
+    <line x1="463" y1="463" x2="538" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,463 538,459 538,467" fill="#0070c0" />
+    <rect x="554" y="427" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">父子账户关系表达组织结构</text>
+    <text x="566" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">本身不触发账户间授权</text>
+    <text x="854" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">独立检查</text>
+    <line x1="813" y1="463" x2="888" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,463 888,459 888,467" fill="#0070c0" />
+    <rect x="904" y="427" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">账户 B 仍需自身访问依据</text>
+    <text x="916" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">例如所有权或显式共享</text>
+  </g>
+  <rect x="48" y="532" width="1184" height="76" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="63" y="555" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">适用范围</text>
+  <text x="63" y="580" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">限制规则仅适用于支持的对象和版本。账户隐式共享由平台自动处理，适用原文列举的标准关系。</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜同时用正例和反例检查敏感记录，验证两种方向上的账户关联。</text>
+</svg>

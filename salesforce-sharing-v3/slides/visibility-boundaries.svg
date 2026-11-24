@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>限制规则从已授权集合筛选，账户关联可触发隐式共享</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">限制规则从已授权集合筛选，账户关联可触发隐式共享</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">边界对照｜蓝色为获得访问的依据，紫色为过滤条件及结果  [E5]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">6</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="48" y="137" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">限制规则 · 从现有授权集合筛选</text>
+    <text x="705" y="137" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">隐式共享 · 账户与标准子记录</text>
+    <rect x="48" y="160" width="594" height="68" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="183" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">已获授权的项目记录</text>
+    <text x="60" y="204" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">示例中用户可访问华东、华北和华南的三条项目记录</text>
+    <rect x="48" y="253" width="186" height="58" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="276" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">华东项目</text>
+    <text x="60" y="297" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">已有访问</text>
+    <line x1="141" y1="311" x2="141" y2="338" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="141,345 145,338 137,338" fill="#6b5b95" />
+    <rect x="252" y="253" width="186" height="58" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="264" y="276" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">华北项目</text>
+    <text x="264" y="297" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">已有访问</text>
+    <line x1="345" y1="311" x2="345" y2="338" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="345,345 349,338 341,338" fill="#6b5b95" />
+    <rect x="456" y="253" width="186" height="58" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="468" y="276" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">华南项目</text>
+    <text x="468" y="297" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">已有访问</text>
+    <line x1="549" y1="311" x2="549" y2="338" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="549,345 553,338 545,338" fill="#6b5b95" />
+    <rect x="48" y="345" width="594" height="68" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="368" font-family="微软雅黑" font-size="14" font-weight="700" fill="#2d1b4e" text-anchor="start">限制规则 · 只允许当前用户访问所在区域</text>
+    <text x="60" y="389" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">当前用户属于华东。每条记录分别匹配条件。</text>
+    <line x1="141" y1="413" x2="141" y2="440" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="141,447 145,440 137,440" fill="#6b5b95" />
+    <rect x="48" y="447" width="186" height="64" rx="7" fill="#eff7f3" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="470" font-family="微软雅黑" font-size="14" font-weight="700" fill="#277e58" text-anchor="start">华东项目</text>
+    <text x="60" y="491" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">匹配 · 仍可见</text>
+    <line x1="345" y1="413" x2="345" y2="440" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="345,447 349,440 341,440" fill="#6b5b95" />
+    <rect x="252" y="447" width="186" height="64" rx="7" fill="#fff1f2" stroke="#dde1e5" stroke-width="1" />
+    <text x="264" y="470" font-family="微软雅黑" font-size="14" font-weight="700" fill="#a50009" text-anchor="start">华北项目</text>
+    <text x="264" y="491" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">不匹配 · 过滤</text>
+    <line x1="549" y1="413" x2="549" y2="440" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="549,447 553,440 545,440" fill="#6b5b95" />
+    <rect x="456" y="447" width="186" height="64" rx="7" fill="#fff1f2" stroke="#dde1e5" stroke-width="1" />
+    <text x="468" y="470" font-family="微软雅黑" font-size="14" font-weight="700" fill="#a50009" text-anchor="start">华南项目</text>
+    <text x="468" y="491" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">不匹配 · 过滤</text>
+    <rect x="48" y="535" width="594" height="63" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="558" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">验证输出</text>
+    <text x="60" y="579" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">列表、搜索、报表与查询均需要核对。</text>
+    <rect x="705" y="160" width="249" height="79" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="717" y="183" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">具有商机访问的用户</text>
+    <text x="717" y="204" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">从子记录得到父账户可见性</text>
+    <rect x="983" y="160" width="249" height="79" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="995" y="183" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">账户所有者</text>
+    <text x="995" y="204" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">角色设置允许查看子商机</text>
+    <line x1="830" y1="239" x2="830" y2="282" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="830,289 834,282 826,282" fill="#0070c0" />
+    <text x="841" y="270" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">父级隐式共享</text>
+    <line x1="1107" y1="239" x2="1107" y2="282" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="1107,289 1111,282 1103,282" fill="#0070c0" />
+    <text x="1118" y="270" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">子级隐式共享</text>
+    <rect x="705" y="289" width="249" height="75" rx="7" fill="#eff7f3" stroke="#dde1e5" stroke-width="1" />
+    <text x="717" y="312" font-family="微软雅黑" font-size="14" font-weight="700" fill="#277e58" text-anchor="start">关联账户 A</text>
+    <text x="717" y="333" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">账户成为可见记录</text>
+    <rect x="983" y="289" width="249" height="75" rx="7" fill="#eff7f3" stroke="#dde1e5" stroke-width="1" />
+    <text x="995" y="312" font-family="微软雅黑" font-size="14" font-weight="700" fill="#277e58" text-anchor="start">账户 A 的商机</text>
+    <text x="995" y="333" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">获得配置范围内的访问</text>
+    <rect x="705" y="425" width="527" height="119" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="717" y="448" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">父账户 A 与子账户 B</text>
+    <text x="717" y="469" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">父子账户关系表达结构。账户 B 仍需自己的可见性依据。</text>
+    <text x="705" y="584" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">隐式共享适用原文列举的标准关系。</text>
+  </g>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜同时用正例和反例检查敏感记录，验证两种方向上的账户关联。</text>
+</svg>

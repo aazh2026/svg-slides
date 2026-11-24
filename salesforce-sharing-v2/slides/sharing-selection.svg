@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>同一条商机可按记录集合、协作成员或业务事件授权</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">同一条商机可按记录集合、协作成员或业务事件授权</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">机制选型｜从谁需要访问、需要多少条记录以及授权何时变更出发  [E3] [E4]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">3</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="204" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">业务触发</text>
+    <text x="554" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">机制与接收方</text>
+    <text x="904" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">生成的访问范围</text>
+    <text x="62" y="194" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">按归属批量</text>
+    <line x1="48" y1="232" x2="1232" y2="232" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="151" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">运营组需要华东销售的商机</text>
+    <text x="216" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">范围由记录归属决定</text>
+    <text x="504" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">按所有者</text>
+    <line x1="463" y1="187" x2="538" y2="187" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,187 538,183 538,191" fill="#0070c0" />
+    <rect x="554" y="151" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">所有者共享规则 → 运营公共组</text>
+    <text x="566" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">源范围可用角色分支表达</text>
+    <text x="854" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">批量开放</text>
+    <line x1="813" y1="187" x2="888" y2="187" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,187 888,183 888,191" fill="#0070c0" />
+    <rect x="904" y="151" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">覆盖符合所有者范围的记录</text>
+    <text x="916" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">公共组承接接收方成员</text>
+    <text x="62" y="286" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">按字段批量</text>
+    <line x1="48" y1="324" x2="1232" y2="324" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="243" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">合规组需要进入特定阶段的商机</text>
+    <text x="216" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">范围随字段条件变化</text>
+    <text x="504" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">按字段值</text>
+    <line x1="463" y1="279" x2="538" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,279 538,275 538,283" fill="#0070c0" />
+    <rect x="554" y="243" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">条件共享规则 → 合规公共组</text>
+    <text x="566" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">例如商机阶段满足配置条件</text>
+    <text x="854" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">条件命中</text>
+    <line x1="813" y1="279" x2="888" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,279 888,275 888,283" fill="#0070c0" />
+    <rect x="904" y="243" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">覆盖所有命中条件的商机</text>
+    <text x="916" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">与单条商机协作独立</text>
+    <text x="62" y="378" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">逐笔协作</text>
+    <line x1="48" y1="416" x2="1232" y2="416" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="335" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">小林请售前协助这条商机</text>
+    <text x="216" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">只需访问当前记录</text>
+    <text x="504" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">指定成员</text>
+    <line x1="463" y1="371" x2="538" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,371 538,367 538,375" fill="#0070c0" />
+    <rect x="554" y="335" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">商机团队 → 指定售前</text>
+    <text x="566" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">为成员配置只读或读写</text>
+    <text x="854" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">单笔开放</text>
+    <line x1="813" y1="371" x2="888" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,371 888,367 888,375" fill="#0070c0" />
+    <rect x="904" y="335" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">只授予当前商机的团队访问</text>
+    <text x="916" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">角色可描述协作职责</text>
+    <text x="62" y="470" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">动态分配</text>
+    <line x1="48" y1="508" x2="1232" y2="508" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="427" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">外部系统维护动态授权名单</text>
+    <text x="216" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">声明式配置无法表达分配</text>
+    <text x="504" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">事件驱动</text>
+    <line x1="463" y1="463" x2="538" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,463 538,459 538,467" fill="#0070c0" />
+    <rect x="554" y="427" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">Apex 写入对象共享记录</text>
+    <text x="566" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">跟踪接收方和共享原因</text>
+    <text x="854" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">按代码授予</text>
+    <line x1="813" y1="463" x2="888" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,463 888,459 888,467" fill="#0070c0" />
+    <rect x="904" y="427" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">覆盖代码明确选中的记录</text>
+    <text x="916" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">同步与撤销由实现维护</text>
+  </g>
+  <rect x="48" y="532" width="1184" height="76" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="63" y="555" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">单笔临时例外</text>
+  <text x="63" y="580" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">也可通过手工共享把当前记录授予用户、角色或组。公共组可包含用户、角色、区域及其他组，嵌套宜控制在五层以内。</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜先按业务范围匹配声明式机制，再判断其余动态授权是否需要 Apex。</text>
+</svg>

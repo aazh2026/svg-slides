@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>批量改组的发布窗口要容纳共享重算</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">批量改组的发布窗口要容纳共享重算</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">规模化变更｜实施顺序为依据官方指南整理的设计建议  [E2] [E6]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">7</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="204" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">变更输入</text>
+    <text x="554" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">影响范围或验证动作</text>
+    <text x="904" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">交付条件</text>
+    <text x="62" y="194" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">范围清点</text>
+    <line x1="48" y1="232" x2="1232" y2="232" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="151" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">季度销售区域重组</text>
+    <text x="216" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">涉及角色、区域、群组与所有者</text>
+    <text x="504" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">估算影响</text>
+    <line x1="463" y1="187" x2="538" y2="187" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,187 538,183 538,191" fill="#0070c0" />
+    <rect x="554" y="151" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">盘点受影响记录与成员关系</text>
+    <text x="566" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">区分成员调整和结构重组</text>
+    <text x="854" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">预估级联</text>
+    <line x1="813" y1="187" x2="888" y2="187" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,187 888,183 888,191" fill="#0070c0" />
+    <rect x="904" y="151" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">得到重算范围和依赖清单</text>
+    <text x="916" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">明确变更负责人</text>
+    <text x="62" y="286" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">沙箱复演</text>
+    <line x1="48" y1="324" x2="1232" y2="324" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="243" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">准备接近生产的数据分布</text>
+    <text x="216" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">关注单父记录与单所有者峰值</text>
+    <text x="504" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">测量耗时</text>
+    <line x1="463" y1="279" x2="538" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,279 538,275 538,283" fill="#0070c0" />
+    <rect x="554" y="243" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">在沙箱执行相同批次</text>
+    <text x="566" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">分别观察变更与共享重算</text>
+    <text x="854" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">设定窗口</text>
+    <line x1="813" y1="279" x2="888" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,279 888,275 888,283" fill="#0070c0" />
+    <rect x="904" y="243" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">取得重算基线</text>
+    <text x="916" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">为生产切换留出时间</text>
+    <text x="62" y="378" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">生产切换</text>
+    <line x1="48" y1="416" x2="1232" y2="416" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="335" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">高体量且需集中变更多项配置</text>
+    <text x="216" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">评估重复触发自动重算</text>
+    <text x="504" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">协调支持</text>
+    <line x1="463" y1="371" x2="538" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,371 538,367 538,375" fill="#0070c0" />
+    <rect x="554" y="335" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">联系 Salesforce Support</text>
+    <text x="566" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">适用时启用延迟共享计算</text>
+    <text x="854" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">控制批次</text>
+    <line x1="813" y1="371" x2="888" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,371 888,367 888,375" fill="#0070c0" />
+    <rect x="904" y="335" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">先执行集中变更</text>
+    <text x="916" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">完成后恢复并运行共享计算</text>
+    <text x="62" y="470" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">验收关闭</text>
+    <line x1="48" y1="508" x2="1232" y2="508" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="427" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">重算后抽查目标角色和业务分支</text>
+    <text x="216" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">包含应有和不应有的访问</text>
+    <text x="504" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">验证结果</text>
+    <line x1="463" y1="463" x2="538" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,463 538,459 538,467" fill="#0070c0" />
+    <rect x="554" y="427" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">对照变更前后的访问矩阵</text>
+    <text x="566" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">核对异常访问及遗漏</text>
+    <text x="854" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">确认稳定</text>
+    <line x1="813" y1="463" x2="888" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,463 888,459 888,467" fill="#0070c0" />
+    <rect x="904" y="427" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">实际访问与方案一致后关闭窗口</text>
+    <text x="916" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">记录测量值和异常</text>
+  </g>
+  <rect x="48" y="532" width="1184" height="76" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="63" y="555" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">原文规模提示</text>
+  <text x="63" y="580" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">关注约 1 万条级别的父子记录倾斜或所有权倾斜。超过 200 万账户且采用团队或销售区域管理时，原文强调关注共享性能。</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜把数据修改、共享重算和可见性复测纳入同一个变更计划。</text>
+</svg>

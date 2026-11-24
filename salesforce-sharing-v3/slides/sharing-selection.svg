@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>同一条商机可按记录集合、协作成员或业务事件授权</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">同一条商机可按记录集合、协作成员或业务事件授权</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">机制选型｜从谁需要访问、需要多少条记录以及授权何时变更出发  [E3] [E4]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">3</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="48" y="137" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">按记录选择方式对照授权机制</text>
+    <rect x="48" y="153" width="226" height="41" rx="0" fill="#303338" />
+    <text x="60" y="179" font-family="微软雅黑" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">业务需求</text>
+    <rect x="274" y="153" width="216" height="41" rx="0" fill="#303338" />
+    <text x="286" y="179" font-family="微软雅黑" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">记录选择条件</text>
+    <rect x="490" y="153" width="226" height="41" rx="0" fill="#303338" />
+    <text x="502" y="179" font-family="微软雅黑" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">机制</text>
+    <rect x="716" y="153" width="240" height="41" rx="0" fill="#303338" />
+    <text x="728" y="179" font-family="微软雅黑" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">接收方</text>
+    <rect x="956" y="153" width="276" height="41" rx="0" fill="#303338" />
+    <text x="968" y="179" font-family="微软雅黑" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">维护要点</text>
+    <rect x="48" y="194" width="226" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="228.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">运营看华东商机</text>
+    <rect x="274" y="194" width="216" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="286" y="228.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">所有者属于华东角色分支</text>
+    <rect x="490" y="194" width="226" height="62" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="502" y="228.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">基于所有者的规则</text>
+    <rect x="716" y="194" width="240" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="728" y="228.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">运营公共组</text>
+    <rect x="956" y="194" width="276" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="968" y="228.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">成员变化由公共组管理</text>
+    <rect x="48" y="256" width="226" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="290.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">合规查看指定阶段</text>
+    <rect x="274" y="256" width="216" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="286" y="290.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">商机阶段命中配置条件</text>
+    <rect x="490" y="256" width="226" height="62" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="502" y="290.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">基于条件的规则</text>
+    <rect x="716" y="256" width="240" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="728" y="290.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">合规公共组</text>
+    <rect x="956" y="256" width="276" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="968" y="290.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">覆盖满足条件的记录集合</text>
+    <rect x="48" y="318" width="226" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="352.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">售前介入一笔商机</text>
+    <rect x="274" y="318" width="216" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="286" y="352.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">当前商机</text>
+    <rect x="490" y="318" width="226" height="62" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="502" y="352.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">商机团队</text>
+    <rect x="716" y="318" width="240" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="728" y="352.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">指定售前成员</text>
+    <rect x="956" y="318" width="276" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="968" y="352.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">为团队成员设只读或读写</text>
+    <rect x="48" y="380" width="226" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="414.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">代班临时访问</text>
+    <rect x="274" y="380" width="216" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="286" y="414.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">当前记录</text>
+    <rect x="490" y="380" width="226" height="62" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="502" y="414.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">手工共享</text>
+    <rect x="716" y="380" width="240" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="728" y="414.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">指定用户、角色或组</text>
+    <rect x="956" y="380" width="276" height="62" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+    <text x="968" y="414.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">所有者转移后重新核对</text>
+    <rect x="48" y="442" width="226" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="476.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">外部系统分配访问</text>
+    <rect x="274" y="442" width="216" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="286" y="476.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">由业务逻辑或外部系统决定</text>
+    <rect x="490" y="442" width="226" height="62" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="502" y="476.9" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">Apex 程序化共享</text>
+    <rect x="716" y="442" width="240" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="728" y="476.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">外部名单中的用户或组</text>
+    <rect x="956" y="442" width="276" height="62" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="968" y="476.9" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">维护共享原因、同步和撤销</text>
+    <rect x="48" y="523" width="564" height="80" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="546" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">公共组负责组织接收方</text>
+    <text x="60" y="567" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">可包含用户、角色、区域和其他组；原文建议嵌套不超过五层。</text>
+    <rect x="636" y="523" width="596" height="80" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="648" y="546" font-family="微软雅黑" font-size="14" font-weight="700" fill="#2d1b4e" text-anchor="start">Apex 用于声明式覆盖不到的授权</text>
+    <text x="648" y="567" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">适用于复杂动态分配或持续沿用外部授权来源。</text>
+  </g>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜先按业务范围匹配声明式机制，再判断其余动态授权是否需要 Apex。</text>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>Salesforce 记录访问由权限边界与共享范围共同决定</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">Salesforce 记录访问由权限边界与共享范围共同决定</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">平台共享架构｜访问控制视图，分组表达职责  [E1] [E2] [E5]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">1</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜先定义用户需要操作的对象与字段，再为具体记录设定最小可用的访问范围。</text>
+  <text x="48" y="135" font-family="微软雅黑" font-size="16" font-weight="700" fill="#24292f" text-anchor="start">访问控制职责</text>
+  <text x="820" y="135" font-family="微软雅黑" font-size="16" font-weight="700" fill="#24292f" text-anchor="start">设计与实施要点</text>
+  <rect x="820" y="142" width="412" height="150.667" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <rect x="820" y="142" width="3.2" height="150.667" rx="0" fill="#c00000" />
+  <text x="834" y="166" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">对象权限先决</text>
+  <text x="834" y="226.333" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">共享可打开记录访问，记录所有者也仍受对象权限约束。用权限集和权</text>
+  <text x="834" y="243.133" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">限集组组合对象权限。</text>
+  <rect x="820" y="302.667" width="412" height="150.667" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <rect x="820" y="302.667" width="3.2" height="150.667" rx="0" fill="#c00000" />
+  <text x="834" y="326.667" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">强权限单独评审</text>
+  <text x="834" y="387" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">对象级 View All / Modify All 可绕过共享设置。全局 View All</text>
+  <text x="834" y="403.8" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">Data / Modify All Data 的授权范围更广。</text>
+  <rect x="820" y="463.333" width="412" height="150.667" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <rect x="820" y="463.333" width="3.2" height="150.667" rx="0" fill="#c00000" />
+  <text x="834" y="487.333" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">许可证分流</text>
+  <text x="834" y="547.667" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">高容量外部用户的许可证不支持角色，可按账户或联系人关联配置共享</text>
+  <text x="834" y="564.467" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">集或共享组。</text>
+  <rect x="48" y="142" width="748" height="146.667" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="62" y="161" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">用户与许可证</text>
+  <rect x="62" y="169" width="355" height="111.667" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="239.5" y="228.433" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="middle">适用完整共享模型的用户</text>
+  <rect x="427" y="169" width="355" height="111.667" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="604.5" y="228.433" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="middle">高容量外部用户</text>
+  <rect x="48" y="304.667" width="748" height="146.667" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="62" y="323.667" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">对象与字段</text>
+  <rect x="62" y="331.667" width="355" height="111.667" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="239.5" y="391.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="middle">对象操作权限</text>
+  <rect x="427" y="331.667" width="355" height="111.667" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="604.5" y="391.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="middle">字段级安全</text>
+  <rect x="48" y="467.333" width="748" height="146.667" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="62" y="486.333" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">记录可访问范围</text>
+  <rect x="62" y="494.333" width="233.333" height="111.667" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="178.667" y="553.767" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="middle">组织范围默认值（OWD）</text>
+  <rect x="305.333" y="494.333" width="233.333" height="111.667" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="422" y="553.767" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="middle">所有权、继承与共享</text>
+  <rect x="548.667" y="494.333" width="233.333" height="111.667" rx="4" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="665.333" y="553.767" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="middle">限制规则筛选</text>
+</svg>

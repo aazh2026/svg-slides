@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>所有者转移会清除 Manual 共享，共享原因决定例外行为</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">所有者转移会清除 Manual 共享，共享原因决定例外行为</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">贯穿示例｜小林将华东商机交接给小周，同时检查其他对象的授权实现  [E3]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">5</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="48" y="137" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">交接前 · 小林持有华东商机</text>
+    <text x="742" y="137" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">交接后 · 小周持有华东商机</text>
+    <rect x="48" y="158" width="484" height="64" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="181" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">Salesforce 商机所有者 · 小林</text>
+    <text x="60" y="202" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">同一条华东商机保留原记录标识</text>
+    <rect x="748" y="158" width="484" height="64" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="760" y="181" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">Salesforce 商机所有者 · 小周</text>
+    <text x="760" y="202" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">记录归属改变，共享原因影响授权结果</text>
+    <rect x="557" y="158" width="166" height="64" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="569" y="181" font-family="微软雅黑" font-size="14" font-weight="700" fill="#2d1b4e" text-anchor="start">转移所有权</text>
+    <text x="569" y="202" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">变更触发点</text>
+    <line x1="532" y1="190" x2="550" y2="190" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="557,190 550,186 550,194" fill="#0070c0" />
+    <line x1="723" y1="190" x2="741" y2="190" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="748,190 741,186 741,194" fill="#0070c0" />
+    <rect x="48" y="252" width="484" height="69" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="275" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">界面手工共享</text>
+    <text x="60" y="296" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">代班用户获只读 · RowCause = Manual</text>
+    <line x1="548" y1="286" x2="725" y2="286" stroke="#c00000" stroke-width="1.5" />
+    <polygon points="732,286 725,282 725,290" fill="#c00000" />
+    <text x="600" y="276" font-family="微软雅黑" font-size="12" font-weight="400" fill="#c00000" text-anchor="start">平台清理</text>
+    <rect x="748" y="252" width="484" height="69" rx="7" fill="#fff1f2" stroke="#dde1e5" stroke-width="1" />
+    <text x="760" y="275" font-family="微软雅黑" font-size="14" font-weight="700" fill="#a50009" text-anchor="start">原 Manual 共享已清除</text>
+    <text x="760" y="296" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">用户若仍可见，应核对其他授权路径</text>
+    <rect x="48" y="340" width="484" height="69" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="363" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">程序写入 Manual</text>
+    <text x="60" y="384" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">方式为代码，原因仍是 Manual</text>
+    <line x1="548" y1="374" x2="725" y2="374" stroke="#c00000" stroke-width="1.5" />
+    <polygon points="732,374 725,370 725,378" fill="#c00000" />
+    <text x="600" y="364" font-family="微软雅黑" font-size="12" font-weight="400" fill="#c00000" text-anchor="start">同一规则</text>
+    <rect x="748" y="340" width="484" height="69" rx="7" fill="#fff1f2" stroke="#dde1e5" stroke-width="1" />
+    <text x="760" y="363" font-family="微软雅黑" font-size="14" font-weight="700" fill="#a50009" text-anchor="start">同样清除</text>
+    <text x="760" y="384" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">界面创建与代码写入遵循同一原因规则</text>
+    <rect x="48" y="428" width="484" height="69" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="451" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">自定义项目记录 · Apex 共享</text>
+    <text x="60" y="472" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">使用自定义 Apex Sharing Reason</text>
+    <line x1="548" y1="462" x2="725" y2="462" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="732,462 725,458 725,466" fill="#0070c0" />
+    <text x="600" y="452" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">独立语义</text>
+    <rect x="748" y="428" width="484" height="69" rx="7" fill="#eff7f3" stroke="#dde1e5" stroke-width="1" />
+    <text x="760" y="451" font-family="微软雅黑" font-size="14" font-weight="700" fill="#277e58" text-anchor="start">自定义原因的共享可保留</text>
+    <text x="760" y="472" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">此行以独立自定义对象的所有者转移为例</text>
+    <rect x="48" y="516" width="484" height="69" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="539" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">另查商机团队成员</text>
+    <text x="60" y="560" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">界面添加时建立成员和关联共享记录</text>
+    <line x1="548" y1="550" x2="725" y2="550" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="732,550 725,546 725,554" fill="#0070c0" />
+    <text x="600" y="540" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">并行验证</text>
+    <rect x="748" y="516" width="484" height="69" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="760" y="539" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">校验成员与共享状态</text>
+    <text x="760" y="560" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">程序化维护时核对两者，并复测访问</text>
+  </g>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜把所有者转移、临时代班结束和团队成员移除纳入发布前回归测试。</text>
+</svg>

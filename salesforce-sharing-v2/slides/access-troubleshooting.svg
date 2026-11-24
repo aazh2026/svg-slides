@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>从对象权限出发，沿预期授权路径定位记录不可见</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">从对象权限出发，沿预期授权路径定位记录不可见</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">贯穿示例｜售前原应能看华东商机，转交后反馈无法访问  [E1] [E2] [E3] [E5] [E7]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">8</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="204" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">排查入口</text>
+    <text x="554" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">检查的事实</text>
+    <text x="904" y="138" font-family="微软雅黑" font-size="14" font-weight="700" fill="#60666d" text-anchor="start">结果或下一步</text>
+    <text x="62" y="194" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">对象与字段</text>
+    <line x1="48" y1="232" x2="1232" y2="232" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="151" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">用售前用户定位这条商机</text>
+    <text x="216" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">先区分整条记录与单个字段不可见</text>
+    <text x="504" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">核对权限</text>
+    <line x1="463" y1="187" x2="538" y2="187" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,187 538,183 538,191" fill="#0070c0" />
+    <rect x="554" y="151" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">验证许可证与对象读取权限</text>
+    <text x="566" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">仅字段异常时检查字段级安全</text>
+    <text x="854" y="177" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">基础通过</text>
+    <line x1="813" y1="187" x2="888" y2="187" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,187 888,183 888,191" fill="#0070c0" />
+    <rect x="904" y="151" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="177" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">检查 OWD、当前所有者及角色</text>
+    <text x="916" y="197" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">确认预期的授权路径</text>
+    <text x="62" y="286" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">默认与继承</text>
+    <line x1="48" y1="324" x2="1232" y2="324" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="243" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">商机 OWD 为 Private</text>
+    <text x="216" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">售前与新所有者处于不同分支</text>
+    <text x="504" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">比对角色</text>
+    <line x1="463" y1="279" x2="538" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,279 538,275 538,283" fill="#0070c0" />
+    <rect x="554" y="243" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">核对新旧所有者与售前角色</text>
+    <text x="566" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">检查是否存在向上继承</text>
+    <text x="854" y="269" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">没有继承</text>
+    <line x1="813" y1="279" x2="888" y2="279" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,279 888,275 888,283" fill="#0070c0" />
+    <rect x="904" y="243" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="269" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">转查横向授权</text>
+    <text x="916" y="289" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">规则、公用组、团队或区域</text>
+    <text x="62" y="378" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">横向授权</text>
+    <line x1="48" y1="416" x2="1232" y2="416" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="335" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">售前应参与这条商机</text>
+    <text x="216" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">已明确预期路径为商机团队</text>
+    <text x="504" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">核对名单</text>
+    <line x1="463" y1="371" x2="538" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,371 538,367 538,375" fill="#0070c0" />
+    <rect x="554" y="335" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">确认售前仍在该商机团队</text>
+    <text x="566" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">检查成员与关联共享的访问级别</text>
+    <text x="854" y="361" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">定位差异</text>
+    <line x1="813" y1="371" x2="888" y2="371" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,371 888,367 888,375" fill="#0070c0" />
+    <rect x="904" y="335" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="361" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">有缺口时修复预期路径</text>
+    <text x="916" y="381" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">同时核查规则或区域适用范围</text>
+    <text x="62" y="470" font-family="微软雅黑" font-size="14" font-weight="700" fill="#0070c0" text-anchor="start">例外与过滤</text>
+    <line x1="48" y1="508" x2="1232" y2="508" stroke="#dde1e5" stroke-width="1" />
+    <rect x="204" y="427" width="250" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="216" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">若售前原通过临时 Manual 共享</text>
+    <text x="216" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">也需核查适用的过滤和代码共享</text>
+    <text x="504" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">追踪交接</text>
+    <line x1="463" y1="463" x2="538" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="545,463 538,459 538,467" fill="#0070c0" />
+    <rect x="554" y="427" width="250" height="70" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="566" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#0070c0" text-anchor="start">所有者转移会清理 Manual</text>
+    <text x="566" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">适用时另查限制规则和程序共享</text>
+    <text x="854" y="453" font-family="微软雅黑" font-size="11" font-weight="700" fill="#0070c0" text-anchor="middle">复测结果</text>
+    <line x1="813" y1="463" x2="888" y2="463" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="895,463 888,459 888,467" fill="#0070c0" />
+    <rect x="904" y="427" width="328" height="70" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="916" y="453" font-family="微软雅黑" font-size="13.5" font-weight="700" fill="#002060" text-anchor="start">用同一售前账号验证预期访问</text>
+    <text x="916" y="473" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">用对照账号验证隔离</text>
+  </g>
+  <rect x="48" y="532" width="1184" height="76" rx="8" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="63" y="555" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">意外可见的反向排查</text>
+  <text x="63" y="580" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">从实际拥有的访问查授权来源，包括对象级或全局强权限、继承、规则、团队、区域以及账户隐式共享。</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜每次用一名用户、一条记录和一个预期操作复现，记录最终命中的授权依据。</text>
+</svg>

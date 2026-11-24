@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>角色层级与销售区域分别承载管理访问和矩阵覆盖</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">角色层级与销售区域分别承载管理访问和矩阵覆盖</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">原文案例改绘｜零售与再营销各自汇总业绩，同时参与同一客户  [E2] [E4]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">4</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="48" y="137" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">企业销售区域管理 · 两条业务线汇聚到同一账户</text>
+    <text x="972" y="137" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">管理继承与临时协作</text>
+    <rect x="48" y="173" width="266" height="85" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="196" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">零售团队</text>
+    <text x="60" y="217" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">零售经理与销售代表</text>
+    <rect x="48" y="361" width="266" height="85" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="384" font-family="微软雅黑" font-size="14" font-weight="700" fill="#2d1b4e" text-anchor="start">再营销团队</text>
+    <text x="60" y="405" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">再营销经理与销售代表</text>
+    <rect x="362" y="173" width="254" height="85" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="374" y="196" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">零售区域分支</text>
+    <text x="374" y="217" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">汇总本业务线的销售业绩</text>
+    <rect x="362" y="361" width="254" height="85" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="374" y="384" font-family="微软雅黑" font-size="14" font-weight="700" fill="#2d1b4e" text-anchor="start">再营销区域分支</text>
+    <text x="374" y="405" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">保留独立的区域结构</text>
+    <line x1="314" y1="216" x2="355" y2="216" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="362,216 355,212 355,220" fill="#0070c0" />
+    <line x1="314" y1="404" x2="355" y2="404" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="362,404 355,400 355,408" fill="#6b5b95" />
+    <text x="319" y="201" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">成员</text>
+    <text x="319" y="388" font-family="微软雅黑" font-size="12" font-weight="400" fill="#6b5b95" text-anchor="start">成员</text>
+    <rect x="713" y="247" width="220" height="133" rx="7" fill="#eff7f3" stroke="#dde1e5" stroke-width="1" />
+    <text x="725" y="270" font-family="微软雅黑" font-size="14" font-weight="700" fill="#277e58" text-anchor="start">共用账户 A</text>
+    <text x="725" y="291" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">两条业务线按各自区域配置获得</text>
+    <text x="725" y="309.2" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">访问</text>
+    <line x1="616" y1="216" x2="659" y2="216" stroke="#0070c0" stroke-width="1.5" />
+    <line x1="659" y1="216" x2="659" y2="283" stroke="#0070c0" stroke-width="1.5" />
+    <line x1="659" y1="283" x2="706" y2="283" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="713,283 706,279 706,287" fill="#0070c0" />
+    <line x1="616" y1="404" x2="659" y2="404" stroke="#6b5b95" stroke-width="1.5" />
+    <line x1="659" y1="404" x2="659" y2="343" stroke="#6b5b95" stroke-width="1.5" />
+    <line x1="659" y1="343" x2="706" y2="343" stroke="#6b5b95" stroke-width="1.5" />
+    <polygon points="713,343 706,339 706,347" fill="#6b5b95" />
+    <text x="666" y="271" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">区域关联</text>
+    <text x="666" y="332" font-family="微软雅黑" font-size="12" font-weight="400" fill="#6b5b95" text-anchor="start">区域关联</text>
+    <rect x="48" y="509" width="568" height="91" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="532" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">为什么选择区域层级</text>
+    <text x="60" y="553" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">共享覆盖由两条销售分支决定，案例要求各自维护管理与汇总结构。</text>
+    <line x1="823" y1="380" x2="823" y2="469" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="823,476 827,469 819,469" fill="#0070c0" />
+    <text x="833" y="438" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">关联商机</text>
+    <rect x="713" y="476" width="220" height="83" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="725" y="499" font-family="微软雅黑" font-size="14" font-weight="700" fill="#002060" text-anchor="start">账户 A 下的商机</text>
+    <text x="725" y="520" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">逐笔协作仍可用商机团队</text>
+    <rect x="972" y="166" width="260" height="75" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="984" y="189" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">销售主管</text>
+    <text x="984" y="210" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">沿角色层级继承访问</text>
+    <rect x="972" y="290" width="260" height="75" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="984" y="313" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">销售小林</text>
+    <text x="984" y="334" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">所有或获共享的记录</text>
+    <line x1="1102" y1="290" x2="1102" y2="248" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="1102,241 1098,248 1106,248" fill="#0070c0" />
+    <text x="1114" y="269" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">向上继承</text>
+    <rect x="972" y="476" width="260" height="83" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+    <text x="984" y="499" font-family="微软雅黑" font-size="14" font-weight="700" fill="#24292f" text-anchor="start">临时售前顾问</text>
+    <text x="984" y="520" font-family="微软雅黑" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">按商机团队成员权限协作</text>
+    <line x1="972" y1="519" x2="940" y2="519" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="933,519 940,523 940,515" fill="#0070c0" />
+    <text x="951" y="581" font-family="微软雅黑" font-size="12" font-weight="400" fill="#60666d" text-anchor="start">单笔协作独立配置</text>
+  </g>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜两套层级分别对齐管理和销售访问需求，避免因结构重复增加共享计算。</text>
+</svg>

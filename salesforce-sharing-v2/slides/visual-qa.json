@@ -1,0 +1,74 @@
+{
+  "access-model.svg": {
+    "total": 67,
+    "elements": {
+      "text": 39,
+      "rect": 12,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "sharing-baseline.svg": {
+    "total": 67,
+    "elements": {
+      "text": 39,
+      "rect": 12,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "sharing-selection.svg": {
+    "total": 67,
+    "elements": {
+      "text": 39,
+      "rect": 12,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "sales-coverage.svg": {
+    "total": 63,
+    "elements": {
+      "text": 36,
+      "rect": 11,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "sharing-lifecycle.svg": {
+    "total": 67,
+    "elements": {
+      "text": 39,
+      "rect": 12,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "visibility-boundaries.svg": {
+    "total": 72,
+    "elements": {
+      "text": 41,
+      "rect": 15,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "scale-recalculation.svg": {
+    "total": 67,
+    "elements": {
+      "text": 39,
+      "rect": 12,
+      "line": 8,
+      "polygon": 8
+    }
+  },
+  "access-troubleshooting.svg": {
+    "total": 67,
+    "elements": {
+      "text": 39,
+      "rect": 12,
+      "line": 8,
+      "polygon": 8
+    }
+  }
+}

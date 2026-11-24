@@ -1,0 +1,8 @@
+{
+  "canvas": [1280, 720], "margin": 48, "font": "微软雅黑",
+  "colors": {"white":"#ffffff","ink":"#24292f","ink2":"#333333","secondary":"#60666d","muted":"#70757c","faint":"#8c8c8c","title":"#c00000","red-deep":"#a50009","red-tint":"#fff1f2","red-tint-2":"#fceff0","red-border":"#eebec2","blue":"#0070c0","blue-deep":"#002060","blue-2":"#30699b","blue-tint":"#eff5fb","purple":"#6b5b95","purple-deep":"#2d1b4e","purple-tint":"#f3f0fb","purple-border":"#d5cbf1","green":"#277e58","green-tint":"#eff7f3","gold":"#97701c","gold-tint":"#faf7ed","dark":"#303338","border":"#dde1e5","border-2":"#dadde1","panel":"#f6f7f8","panel-2":"#f4f5f7","row-label":"#edeff1"},
+  "header": {"title_y":64,"subtitle_y":86,"rule_y":98,"rule_height":4},
+  "content": {"y":118,"bottom":676,"width":1184}, "footer_y":700,
+  "columns":{"left":[48,748],"right":[820,412],"two":[578,28],"three":[376,28]},
+  "type":{"title":28,"title_sm":24,"subtitle":13.33,"section":16,"body":12,"body_lg":14,"body_sm":10.67,"table":11,"caption":9.33,"conclusion":14}, "card_radius":8,"accent_width":3.2
+}

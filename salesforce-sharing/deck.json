@@ -1,0 +1,492 @@
+{
+  "label": "Salesforce 平台共享架构",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Introduction · High-Volume Users / Profiles and Permission Sets",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S2",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Record Ownership and Queues / Organization-Wide Defaults / Role Hierarchy",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S3",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Public Groups / Sharing Rules / Teams / Manual Sharing / Apex Managed Sharing",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S4",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Role Hierarchy / Territory Hierarchy / Customer Sharing Solutions",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S5",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Restriction Rules / Implicit Sharing / Account Hierarchies’ Impact on Data Access",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S6",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Realignment and Reassignment / Large Data Volumes / Defer Sharing Calculations / Data and Ownership Skews",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S7",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Troubleshooting flow（正文结尾）",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "statement": "许可证决定共享模型适用范围。对象权限控制操作，字段权限控制字段可见性和编辑权，记录共享控制可访问的记录。",
+      "kind": "official",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "E2",
+      "statement": "所有权仍受对象权限约束。OWD 定义其他用户记录的默认访问，角色层级在适用时向上继承访问。",
+      "kind": "official",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "E3",
+      "statement": "共享方式可按所有者、字段条件、逐记录协作或代码驱动来选择。手工 RowCause 与自定义 Apex 共享原因的生命周期不同。",
+      "kind": "official",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "E4",
+      "statement": "角色层级支持管理访问向上继承，销售区域层级支持矩阵式销售覆盖，记录团队支持单笔协作。",
+      "kind": "official",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "E5",
+      "statement": "限制规则筛选已获访问的记录。账户有原生隐式共享，账户树本身不传播访问。",
+      "kind": "official",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "id": "E6",
+      "statement": "批量重组要估算级联共享变化。大体量场景应先在沙箱验证，必要时由 Salesforce Support 启用延迟重算。",
+      "kind": "official",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "id": "E7",
+      "statement": "从对象权限和双方角色查起，沿规则和群组、团队或区域、手工及程序共享追踪记录访问。",
+      "kind": "official",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "limitations": [
+    "以 Salesforce Architects 原文为依据。示意与实施建议标注在页内。功能支持范围和具体配额应按目标组织验证。"
+  ],
+  "slides": [
+    {
+      "id": "access-model",
+      "title": "Salesforce 记录访问由权限边界与共享范围共同决定",
+      "layout": "architecture",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ],
+      "subtitle": "平台共享架构｜访问控制视图，分组表达职责",
+      "conclusion": "设计建议｜先定义用户需要操作的对象与字段，再为具体记录设定最小可用的访问范围。",
+      "data": {
+        "layers": [
+          {
+            "title": "用户与许可证",
+            "nodes": [
+              "适用完整共享模型的用户",
+              "高容量外部用户"
+            ]
+          },
+          {
+            "title": "对象与字段",
+            "nodes": [
+              "对象操作权限",
+              "字段级安全"
+            ]
+          },
+          {
+            "title": "记录可访问范围",
+            "nodes": [
+              "组织范围默认值（OWD）",
+              "所有权、继承与共享",
+              "限制规则筛选"
+            ]
+          }
+        ]
+      },
+      "section": "访问控制职责",
+      "notes_title": "设计与实施要点",
+      "notes": [
+        {
+          "title": "对象权限先决",
+          "body": "共享可打开记录访问，记录所有者也仍受对象权限约束。用权限集和权限集组组合对象权限。"
+        },
+        {
+          "title": "强权限单独评审",
+          "body": "对象级 View All / Modify All 可绕过共享设置。全局 View All Data / Modify All Data 的授权范围更广。"
+        },
+        {
+          "title": "许可证分流",
+          "body": "高容量外部用户的许可证不支持角色，可按账户或联系人关联配置共享集或共享组。"
+        }
+      ]
+    },
+    {
+      "id": "sharing-baseline",
+      "title": "OWD 设定记录访问基线，所有权与层级补充访问",
+      "layout": "compare",
+      "evidence_ids": [
+        "E2"
+      ],
+      "subtitle": "组织范围默认值｜以拥有商机读写对象权限的用户为例",
+      "conclusion": "设计建议｜先确认跨所有者的默认访问，变更 OWD 前评估共享重算时间。",
+      "data": {
+        "headers": [
+          "机制",
+          "访问效果",
+          "设计边界"
+        ],
+        "rows": [
+          [
+            "OWD · Private",
+            "其他用户的记录需要额外访问依据",
+            "适用于需要按归属隔离的对象"
+          ],
+          [
+            "OWD · Public Read Only",
+            "在对象权限允许时，用户默认可读他人的商机",
+            "编辑需要所有权或额外授权"
+          ],
+          [
+            "OWD · Controlled by Parent",
+            "访问取决于关联父记录",
+            "是否可选取决于对象与关系"
+          ],
+          [
+            "所有权与队列",
+            "记录由用户或适用的队列持有，队列成员可领取记录",
+            "对象权限限制可执行的操作"
+          ],
+          [
+            "角色层级",
+            "上级继承下级所有及已共享记录的相应访问级别",
+            "自定义对象可关闭角色层级继承，同级不会自动互访"
+          ]
+        ],
+        "weights": [
+          1.08,
+          1.48,
+          1.48
+        ]
+      }
+    },
+    {
+      "id": "sharing-selection",
+      "title": "按授权粒度选择共享规则、团队或 Apex",
+      "layout": "matrix",
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ],
+      "subtitle": "选型矩阵｜先确认共享范围、接收方与变更触发条件",
+      "conclusion": "设计建议｜优先用声明式机制表达稳定需求，将代码用于声明式能力无法覆盖的场景。",
+      "data": {
+        "headers": [
+          "业务需求",
+          "共享机制",
+          "适用方式"
+        ],
+        "rows": [
+          [
+            "按所属团队批量开放",
+            "基于所有者的共享规则",
+            "例如将某业务分支持有的记录共享给运营组"
+          ],
+          [
+            "按记录属性批量开放",
+            "基于条件的共享规则",
+            "以记录字段条件选择记录，再授权给配置的接收方"
+          ],
+          [
+            "维护跨角色的接收方",
+            "公共组",
+            "组织用户、角色、区域或其他组，供共享配置引用"
+          ],
+          [
+            "为单笔业务建立协作",
+            "账户、商机或案例团队",
+            "为记录指定团队成员及只读或读写访问"
+          ],
+          [
+            "处理单笔临时例外",
+            "手工共享",
+            "可向指定用户、组或角色授权，转移所有权时需复核"
+          ],
+          [
+            "处理动态授权",
+            "Apex 程序化共享",
+            "适合复杂规则或由外部系统维护的访问分配"
+          ]
+        ],
+        "weights": [
+          1.2,
+          1.2,
+          1.9
+        ]
+      }
+    },
+    {
+      "id": "sales-coverage",
+      "title": "角色层级承载管理继承，销售区域层级承载矩阵覆盖",
+      "layout": "compare",
+      "evidence_ids": [
+        "E2",
+        "E4"
+      ],
+      "subtitle": "跨业务线共享｜以原文销售场景为依据",
+      "conclusion": "设计建议｜使用两套层级时分别定义管理继承与销售覆盖，避免复制同一结构。",
+      "data": {
+        "headers": [
+          "业务场景",
+          "首选机制",
+          "访问关系"
+        ],
+        "rows": [
+          [
+            "主管需要查看下属负责的记录",
+            "角色层级",
+            "沿管理分支向上继承访问"
+          ],
+          [
+            "零售与再营销分别管理同一账户",
+            "企业销售区域管理",
+            "按销售区域分支覆盖同一账户，两条业务线保有各自的汇总结构"
+          ],
+          [
+            "国家运营人员需要本国销售数据",
+            "基于所有者的共享规则",
+            "从销售记录所有者范围授权给运营接收方"
+          ],
+          [
+            "某个商机需要售前临时加入",
+            "商机团队",
+            "只为该商机配置参与者及访问级别"
+          ]
+        ],
+        "weights": [
+          1.35,
+          1.15,
+          1.8
+        ]
+      }
+    },
+    {
+      "id": "sharing-lifecycle",
+      "title": "共享记录的生命周期取决于授权原因和记录变更",
+      "layout": "matrix",
+      "evidence_ids": [
+        "E3"
+      ],
+      "subtitle": "实现约束｜区分团队成员记录、共享记录及共享原因（RowCause）",
+      "conclusion": "设计建议｜在测试中覆盖团队成员移除、所有者转移以及外部授权同步。",
+      "data": {
+        "headers": [
+          "授权方式",
+          "关联数据",
+          "关键行为"
+        ],
+        "rows": [
+          [
+            "标准记录团队",
+            "团队成员记录 + 关联共享记录",
+            "界面添加成员时生成两条记录，按原文做法，程序化实现需管理两者"
+          ],
+          [
+            "手工共享",
+            "RowCause = Manual",
+            "所有者转移时清除。通过代码创建的 Manual 共享也受此约束"
+          ],
+          [
+            "自定义对象 Apex 共享",
+            "自定义 Apex Sharing Reason",
+            "按业务原因标识共享，便于独立维护和删除"
+          ]
+        ],
+        "weights": [
+          1.05,
+          1.25,
+          1.9
+        ]
+      }
+    },
+    {
+      "id": "visibility-boundaries",
+      "title": "限制规则收窄可见记录，隐式共享补充账户访问",
+      "layout": "compare",
+      "evidence_ids": [
+        "E5"
+      ],
+      "subtitle": "记录可见性边界｜检查过滤条件与原生关联授权",
+      "conclusion": "设计建议｜用代表性用户验证账户、子记录及敏感对象的实际可见范围。",
+      "data": {
+        "headers": [
+          "机制",
+          "记录可见性的变化",
+          "适用边界"
+        ],
+        "rows": [
+          [
+            "限制规则",
+            "从已授权记录中保留满足条件的记录",
+            "对象支持范围及规则数量因对象、版本而异"
+          ],
+          [
+            "父级隐式共享",
+            "可访问联系人、商机或案例时，可获得关联账户的可见性",
+            "仅对账户及规定关联关系生效"
+          ],
+          [
+            "子级隐式共享",
+            "账户所有者按其角色设置获得联系人、商机或案例访问",
+            "可分别配置查看、编辑或无访问，权限仍受对象设置约束"
+          ],
+          [
+            "账户树",
+            "父子账户关联用于表达账户关系",
+            "访问子账户需要独立的授权依据"
+          ]
+        ],
+        "weights": [
+          1,
+          1.6,
+          1.6
+        ]
+      }
+    },
+    {
+      "id": "scale-recalculation",
+      "title": "批量改组的主要成本来自共享重算与记录倾斜",
+      "layout": "process",
+      "evidence_ids": [
+        "E2",
+        "E6"
+      ],
+      "subtitle": "规模化变更｜实施顺序为根据原文整理的操作建议",
+      "conclusion": "设计建议｜发布窗口同时覆盖数据变更、共享计算和可见性复测。",
+      "data": {
+        "steps": [
+          {
+            "title": "识别变更范围",
+            "body": "清点角色、区域、群组、团队、规则和所有者的变更，识别级联影响。"
+          },
+          {
+            "title": "在沙箱测量",
+            "body": "选择接近生产的数据分布和共享结构，测量批量更新及重算用时。"
+          },
+          {
+            "title": "计划生产切换",
+            "body": "协调批次和窗口。符合条件时请 Salesforce Support 启用延迟共享计算。"
+          },
+          {
+            "title": "恢复计算并验证",
+            "body": "重算完成后，用代表性用户验证应有和不应有的访问。"
+          }
+        ]
+      },
+      "section": "批量变更实施顺序",
+      "notes_title": "设计与实施要点",
+      "notes": [
+        {
+          "title": "约 1 万条｜倾斜参考",
+          "body": "关注单个父记录关联大量子记录、单个所有者持有大量记录两种分布。原文建议大所有者尽量不设角色，确有需要时独立置于顶部。"
+        },
+        {
+          "title": "超过 200 万账户｜性能关注",
+          "body": "原文针对已使用团队或销售区域管理的场景提示关注性能。阈值用于风险评估。"
+        }
+      ]
+    },
+    {
+      "id": "access-troubleshooting",
+      "title": "按预期授权路径排查用户为何看不到记录",
+      "layout": "process",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E7"
+      ],
+      "subtitle": "排障顺序｜以一名用户、一条记录和一个预期操作为单位",
+      "conclusion": "设计建议｜修复后验证目标用户与对照用户的实际访问，检查是否扩大了授权范围。",
+      "data": {
+        "steps": [
+          {
+            "title": "确认对象与字段权限",
+            "body": "核对许可证、对象权限和预期操作。若仅个别字段不可见，检查字段级安全。"
+          },
+          {
+            "title": "检查所有者、OWD 与角色",
+            "body": "确认记录归属、默认访问，以及用户角色与所有者角色是否具备继承关系。"
+          },
+          {
+            "title": "定位应生效的授权",
+            "body": "核对共享规则和公共组、记录团队成员、销售区域成员与记录归属。"
+          },
+          {
+            "title": "核对例外与过滤",
+            "body": "检查 Manual 共享是否随转移所有权被清除，检查程序共享与适用的限制规则。"
+          }
+        ]
+      },
+      "section": "记录不可见排查路径",
+      "notes_title": "设计与实施要点",
+      "notes": [
+        {
+          "title": "从预期关系切入",
+          "body": "已知授权渠道时，优先验证该渠道的记录范围、成员资格和访问级别。"
+        },
+        {
+          "title": "验证意外可见",
+          "body": "关注对象级或全局强权限，以及规则、团队、区域和隐式共享带来的访问。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>角色层级承载管理继承，销售区域层级承载矩阵覆盖</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">角色层级承载管理继承，销售区域层级承载矩阵覆盖</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">跨业务线共享｜以原文销售场景为依据  [E2] [E4]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">4</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜使用两套层级时分别定义管理继承与销售覆盖，避免复制同一结构。</text>
+  <rect x="48" y="120" width="1184" height="34" rx="0" fill="#303338" />
+  <text x="57" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">业务场景</text>
+  <text x="428.721" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">首选机制</text>
+  <text x="745.372" y="140.6" font-family="微软雅黑" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">访问关系</text>
+  <rect x="48" y="154" width="371.721" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="215.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">主管需要查看下属负责的记录</text>
+  <rect x="419.721" y="154" width="316.651" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="428.721" y="215.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">角色层级</text>
+  <rect x="736.372" y="154" width="495.628" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="745.372" y="215.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">沿管理分支向上继承访问</text>
+  <rect x="48" y="269" width="371.721" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="330.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">零售与再营销分别管理同一账户</text>
+  <rect x="419.721" y="269" width="316.651" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="428.721" y="330.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">企业销售区域管理</text>
+  <rect x="736.372" y="269" width="495.628" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="745.372" y="330.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">按销售区域分支覆盖同一账户，两条业务线保有各自的汇总结构</text>
+  <rect x="48" y="384" width="371.721" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="445.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">国家运营人员需要本国销售数据</text>
+  <rect x="419.721" y="384" width="316.651" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="428.721" y="445.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">基于所有者的共享规则</text>
+  <rect x="736.372" y="384" width="495.628" height="115" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="745.372" y="445.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">从销售记录所有者范围授权给运营接收方</text>
+  <rect x="48" y="499" width="371.721" height="115" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+  <text x="57" y="560.1" font-family="微软雅黑" font-size="12" font-weight="700" fill="#0070c0" text-anchor="start">某个商机需要售前临时加入</text>
+  <rect x="419.721" y="499" width="316.651" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="428.721" y="560.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">商机团队</text>
+  <rect x="736.372" y="499" width="495.628" height="115" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1" />
+  <text x="745.372" y="560.1" font-family="微软雅黑" font-size="12" font-weight="400" fill="#24292f" text-anchor="start">只为该商机配置参与者及访问级别</text>
+</svg>

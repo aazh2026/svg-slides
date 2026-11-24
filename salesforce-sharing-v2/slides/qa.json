@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "scope": "static XML/style/approximate text bounds/source mapping; not visual or factual validation",
+  "manifest_errors": [],
+  "slides": [
+    {
+      "file": "access-model.svg",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "access-troubleshooting.svg",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "sales-coverage.svg",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "scale-recalculation.svg",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "sharing-baseline.svg",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "sharing-lifecycle.svg",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "sharing-selection.svg",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "visibility-boundaries.svg",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

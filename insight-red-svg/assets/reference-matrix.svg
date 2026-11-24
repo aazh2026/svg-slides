@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>从经营结果出发，识别十大业务问题的根本约束</title>
+<rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff"/>
+<text x="48" y="64" font-family="微软雅黑, Noto Sans CJK SC" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">从经营结果出发，识别十大业务问题的根本约束</text>
+<text x="48" y="86" font-family="微软雅黑, Noto Sans CJK SC" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">业务问题 → 表象 → 直接原因 → 根本约束：从业务反推技术竞争力，而非从技术寻找场景</text>
+<rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000"/>
+<rect x="48" y="118" width="1184" height="32" rx="0" fill="#303338"/>
+<text x="60" y="139" font-family="微软雅黑, Noto Sans CJK SC" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">业务问题</text>
+<text x="296" y="139" font-family="微软雅黑, Noto Sans CJK SC" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">表象</text>
+<text x="572" y="139" font-family="微软雅黑, Noto Sans CJK SC" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">直接原因</text>
+<text x="876" y="139" font-family="微软雅黑, Noto Sans CJK SC" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">根本约束</text>
+<rect x="48" y="150" width="1184" height="46" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="150" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="150" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="150" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="150" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="150" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="161" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="178" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="94" y="177.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">客户识别与增长机会发现</text>
+<text x="296" y="177.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">客户数据分散、画像不准、交叉销售靠经验</text>
+<text x="572" y="177.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">多系统客户主数据不一致、行为数据未打通</text>
+<text x="876" y="177.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">缺少统一客户标识与跨域语义</text>
+<rect x="48" y="196" width="1184" height="46" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="196" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="196" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="196" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="196" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="196" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="207" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="224" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="94" y="223.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">商机管理与赢单效率</text>
+<text x="296" y="223.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">销售过程不透明、预测失真、协同靠会议</text>
+<text x="572" y="223.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">阶段定义不一致、活动与商机未关联</text>
+<text x="876" y="223.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">销售过程缺少可执行的状态机与统一口径</text>
+<rect x="48" y="242" width="1184" height="46" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="242" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="242" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="242" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="242" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="242" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="253" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="270" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="94" y="261.05" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">复杂产品配置、报价与交易效</text>
+<text x="94" y="278.05" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">率</text>
+<text x="296" y="269.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">报价慢、错配、折扣失控</text>
+<text x="572" y="269.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">产品组合爆炸、规则散落在人脑与表格</text>
+<text x="876" y="269.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">配置约束、定价规则与审批策略无法形式化</text>
+<rect x="48" y="288" width="1184" height="46" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="288" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="288" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="288" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="288" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="288" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="299" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="316" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="94" y="315.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">合同风险与商业承诺管理</text>
+<text x="296" y="315.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">条款风险后知后觉、履约偏差难发现</text>
+<text x="572" y="315.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">合同与订单、交付、开票脱节</text>
+<text x="876" y="315.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">缺少跨系统的业务状态一致性</text>
+<rect x="48" y="334" width="1184" height="46" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="334" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="334" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="334" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="334" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="334" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="345" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="362" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<text x="94" y="361.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">订单履约与跨系统协同</text>
+<text x="296" y="361.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">交付延迟、状态不一致、异常靠人工对账</text>
+<text x="572" y="361.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">多系统异步、无幂等与补偿</text>
+<text x="876" y="361.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">分布式事务边界与业务一致性机制缺失</text>
+<rect x="48" y="380" width="1184" height="46" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="380" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="380" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="380" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="380" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="380" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="391" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="408" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+<text x="94" y="407.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">客户服务效率与体验</text>
+<text x="296" y="407.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">首次解决率低、重复转派、知识找不到</text>
+<text x="572" y="407.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">工单状态不清、知识过期、权限割裂</text>
+<text x="876" y="407.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">服务语义、知识时效与权限传播不统一</text>
+<rect x="48" y="426" width="1184" height="46" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="426" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="426" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="426" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="426" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="426" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="437" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="454" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+<text x="94" y="453.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">全球化多产业多组织协同</text>
+<text x="296" y="453.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">各区域系统割裂、合规成本高</text>
+<text x="572" y="453.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">区域部署、数据驻留、税务与语言差异</text>
+<text x="876" y="453.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">统一服务与本地合规的结构性张力</text>
+<rect x="48" y="472" width="1184" height="46" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="472" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="472" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="472" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="472" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="472" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="483" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="500" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+<text x="94" y="491.05" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">业务数据一致性与经营分析可</text>
+<text x="94" y="508.05" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">信性</text>
+<text x="296" y="499.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">同一指标多个口径、报表打架</text>
+<text x="572" y="499.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">指标定义分散、血缘不清、主数据缺失</text>
+<text x="876" y="499.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">缺少统一语义层与指标契约</text>
+<rect x="48" y="518" width="1184" height="46" rx="0" fill="#ffffff" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="518" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="518" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="518" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="518" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="518" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="529" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="546" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+<text x="94" y="545.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">业务知识沉淀与复用</text>
+<text x="296" y="545.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">老员工经验流失、新人上手慢</text>
+<text x="572" y="545.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">知识在文档与邮件中、未结构化</text>
+<text x="876" y="545.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">知识缺少出处、版本、权限与反馈机制</text>
+<rect x="48" y="564" width="1184" height="46" rx="0" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1"/>
+<rect x="48" y="564" width="236" height="46" rx="0" fill="#eff5fb" stroke="#dde1e5" stroke-width="1"/>
+<rect x="864" y="564" width="368" height="46" rx="0" fill="#fceff0" stroke="#dde1e5" stroke-width="1"/>
+<rect x="284" y="564" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="560" y="564" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="864" y="564" width="1" height="46" rx="0" fill="#dde1e5"/>
+<rect x="60" y="575" width="24" height="24" rx="2" fill="#0070c0"/>
+<text x="72" y="592" font-family="微软雅黑, Noto Sans CJK SC" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
+<text x="94" y="591.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#24292f" text-anchor="start">复杂业务流程自动化与智能化</text>
+<text x="296" y="591.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">流程长、例外多、自动化覆盖低</text>
+<text x="572" y="591.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="400" fill="#24292f" text-anchor="start">规则与流程混在代码里、变更成本高</text>
+<text x="876" y="591.55" font-family="微软雅黑, Noto Sans CJK SC" font-size="13" font-weight="700" fill="#c00000" text-anchor="start">确定性编排与智能决策缺少分工机制</text>
+<rect x="48" y="622" width="1184" height="54" rx="4" fill="#fceff0"/>
+<rect x="48" y="622" width="3.2" height="54" rx="0" fill="#c00000"/>
+<text x="62" y="644" font-family="微软雅黑, Noto Sans CJK SC" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">启示：</text>
+<text x="116" y="644" font-family="微软雅黑, Noto Sans CJK SC" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">从经营结果识别真实业务约束，再推导所需技术能力。</text>
+<text x="116" y="664" font-family="微软雅黑, Noto Sans CJK SC" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">优先解决业务语义、规则形式化、跨系统一致性与治理等根本问题，而不是局部修补表象。</text>
+<text x="48" y="700" font-family="微软雅黑, Noto Sans CJK SC" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">9</text>
+<text x="1232" y="700" font-family="微软雅黑, Noto Sans CJK SC" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 技术洞察</text>
+</svg>

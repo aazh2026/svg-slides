@@ -1,0 +1,192 @@
+{
+  "label": "Salesforce 平台共享架构",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Introduction · High-Volume Users / Profiles and Permission Sets",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S2",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Record Ownership and Queues / Organization-Wide Defaults / Role Hierarchy",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S3",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Public Groups / Sharing Rules / Teams / Manual Sharing / Apex Managed Sharing",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S4",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Role Hierarchy / Territory Hierarchy / Customer Sharing Solutions",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S5",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Restriction Rules / Implicit Sharing / Account Hierarchies’ Impact on Data Access",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S6",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Realignment and Reassignment / Large Data Volumes / Defer Sharing Calculations / Data and Ownership Skews",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "S7",
+      "title": "Salesforce Architects · Platform Sharing Architecture",
+      "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/platform-sharing-architecture.html",
+      "locator": "Troubleshooting flow（正文结尾）",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "statement": "许可证决定共享模型适用范围。对象权限控制操作，字段权限控制字段可见性和编辑权，记录共享控制可访问的记录。",
+      "kind": "official",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "E2",
+      "statement": "所有权仍受对象权限约束。OWD 定义其他用户记录的默认访问，角色层级在适用时向上继承访问。",
+      "kind": "official",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "E3",
+      "statement": "共享方式可按所有者、字段条件、逐记录协作或代码驱动来选择。手工 RowCause 与自定义 Apex 共享原因的生命周期不同。",
+      "kind": "official",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "E4",
+      "statement": "角色层级支持管理访问向上继承，销售区域层级支持矩阵式销售覆盖，记录团队支持单笔协作。",
+      "kind": "official",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "E5",
+      "statement": "限制规则筛选已获访问的记录。账户有原生隐式共享，账户树本身不传播访问。",
+      "kind": "official",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "id": "E6",
+      "statement": "批量重组要估算级联共享变化。大体量场景应先在沙箱验证，必要时由 Salesforce Support 启用延迟重算。",
+      "kind": "official",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "id": "E7",
+      "statement": "从对象权限和双方角色查起，沿规则和群组、团队或区域、手工及程序共享追踪记录访问。",
+      "kind": "official",
+      "source_ids": [
+        "S7"
+      ]
+    }
+  ],
+  "limitations": [
+    "以 Salesforce Architects 原文为依据。示意与实施建议标注在页内。功能支持范围和具体配额应按目标组织验证。",
+    "小林、小周、账户 A 等为机制示例。规模提示为原文评估口径。"
+  ],
+  "slides": [
+    {
+      "file": "access-model.svg",
+      "page": 1,
+      "title": "权限和记录共享共同决定商机可见性",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    {
+      "file": "sharing-baseline.svg",
+      "page": 2,
+      "title": "OWD 决定起点，角色层级把已有访问向上继承",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "file": "sharing-selection.svg",
+      "page": 3,
+      "title": "同一条商机可按记录集合、协作成员或业务事件授权",
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "file": "sales-coverage.svg",
+      "page": 4,
+      "title": "角色层级与销售区域分别承载管理访问和矩阵覆盖",
+      "evidence_ids": [
+        "E2",
+        "E4"
+      ]
+    },
+    {
+      "file": "sharing-lifecycle.svg",
+      "page": 5,
+      "title": "所有者转移会清除 Manual 共享，共享原因决定例外行为",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    {
+      "file": "visibility-boundaries.svg",
+      "page": 6,
+      "title": "限制规则从已授权集合筛选，账户关联可触发隐式共享",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    {
+      "file": "scale-recalculation.svg",
+      "page": 7,
+      "title": "批量改组的发布窗口要容纳共享重算",
+      "evidence_ids": [
+        "E2",
+        "E6"
+      ]
+    },
+    {
+      "file": "access-troubleshooting.svg",
+      "page": 8,
+      "title": "从对象权限出发，沿预期授权路径定位记录不可见",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E7"
+      ]
+    }
+  ]
+}

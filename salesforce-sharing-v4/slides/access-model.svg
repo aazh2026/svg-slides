@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>权限和记录共享共同决定商机可见性</title>
+  <rect x="0" y="0" width="1280" height="720" rx="0" fill="#ffffff" />
+  <text x="48" y="64" font-family="微软雅黑" font-size="28" font-weight="700" fill="#c00000" text-anchor="start">权限和记录共享共同决定商机可见性</text>
+  <text x="48" y="86" font-family="微软雅黑" font-size="13.33" font-weight="400" fill="#60666d" text-anchor="start">示例｜华东商机由销售小林持有，商机 OWD 为 Private  [E1] [E2] [E5]</text>
+  <rect x="48" y="98" width="1184" height="4" rx="0" fill="#c00000" />
+  <text x="48" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="start">1</text>
+  <text x="1232" y="700" font-family="微软雅黑" font-size="9.33" font-weight="400" fill="#8c8c8c" text-anchor="end">Salesforce 平台共享架构</text>
+  <g id="main-visual">
+    <text x="48" y="132.668" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#002060" text-anchor="start">适用完整共享模型时的访问判定</text>
+    <rect x="322" y="144.248" width="316" height="47.864" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="334" y="162.004" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#002060" text-anchor="start">华东商机 · 查看或编辑</text>
+    <text x="334" y="178.216" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">以一名用户发起的操作为例</text>
+    <line x1="480" y1="192.112" x2="480" y2="206.008" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="480,211.412 484,206.008 476,206.008" fill="#0070c0" />
+    <rect x="322" y="211.412" width="316" height="51.724" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="334" y="229.168" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#002060" text-anchor="start">对象权限</text>
+    <text x="334" y="245.380" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">用户能对商机执行该操作吗？</text>
+    <line x1="322" y1="237.660" x2="281" y2="237.660" stroke="#c00000" stroke-width="1.5" />
+    <polygon points="274,237.660 281,240.748 281,234.572" fill="#c00000" />
+    <text x="280" y="229.168" font-family="微软雅黑" font-size="11.00" font-weight="400" fill="#c00000" text-anchor="start">否</text>
+    <rect x="48" y="211.412" width="226" height="51.724" rx="7" fill="#fff1f2" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="229.168" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#a50009" text-anchor="start">对象操作被拒绝</text>
+    <text x="60" y="245.380" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">即使用户是记录所有者</text>
+    <line x1="480" y1="263.136" x2="480" y2="282.436" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="480,287.840 484,282.436 476,282.436" fill="#0070c0" />
+    <text x="492" y="279.348" font-family="微软雅黑" font-size="11.00" font-weight="400" fill="#60666d" text-anchor="start">是</text>
+    <rect x="322" y="287.840" width="316" height="54.040" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="334" y="305.596" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#002060" text-anchor="start">记录访问范围</text>
+    <text x="334" y="321.808" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">所有权、OWD、继承或共享是否覆盖？</text>
+    <line x1="322" y1="314.860" x2="281" y2="314.860" stroke="#c00000" stroke-width="1.5" />
+    <polygon points="274,314.860 281,317.948 281,311.772" fill="#c00000" />
+    <text x="280" y="306.368" font-family="微软雅黑" font-size="11.00" font-weight="400" fill="#c00000" text-anchor="start">否</text>
+    <rect x="48" y="287.840" width="226" height="54.040" rx="7" fill="#fff1f2" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="305.596" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#a50009" text-anchor="start">记录不在访问范围内</text>
+    <text x="60" y="321.808" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">同角色同事仍需授权依据</text>
+    <line x1="480" y1="341.880" x2="480" y2="361.952" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="480,367.356 484,361.952 476,361.952" fill="#0070c0" />
+    <text x="491" y="358.864" font-family="微软雅黑" font-size="11.00" font-weight="400" fill="#60666d" text-anchor="start">是</text>
+    <rect x="322" y="367.356" width="316" height="52.496" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="334" y="385.112" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#002060" text-anchor="start">字段级安全</text>
+    <text x="334" y="401.324" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">字段能否查看或编辑？</text>
+    <line x1="322" y1="393.604" x2="281" y2="393.604" stroke="#c00000" stroke-width="1.5" />
+    <polygon points="274,393.604 281,396.692 281,390.516" fill="#c00000" />
+    <text x="281" y="385.112" font-family="微软雅黑" font-size="11.00" font-weight="400" fill="#c00000" text-anchor="start">受限</text>
+    <rect x="48" y="367.356" width="226" height="52.496" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="60" y="385.112" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#2d1b4e" text-anchor="start">字段被隐藏或不可编辑</text>
+    <text x="60" y="401.324" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">记录仍可能可见</text>
+    <line x1="480" y1="419.852" x2="480" y2="438.380" stroke="#0070c0" stroke-width="1.5" />
+    <polygon points="480,443.784 484,438.380 476,438.380" fill="#0070c0" />
+    <text x="491" y="436.064" font-family="微软雅黑" font-size="11.00" font-weight="400" fill="#60666d" text-anchor="start">允许</text>
+    <rect x="322" y="443.784" width="316" height="50.180" rx="7" fill="#eff7f3" stroke="#dde1e5" stroke-width="1" />
+    <text x="334" y="461.540" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#277e58" text-anchor="start">得到可用的记录操作</text>
+    <text x="334" y="477.752" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">同时受对象、记录及字段权限约束</text>
+    <text x="700" y="132.668" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#002060" text-anchor="start">三项适用边界</text>
+    <rect x="700" y="162.776" width="532" height="69.480" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="712" y="180.532" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#2d1b4e" text-anchor="start">高容量外部用户 → 共享集或共享组</text>
+    <text x="712" y="196.744" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">角色不适用。按联系人或账户关联配置记录访问。</text>
+    <rect x="700" y="252.328" width="532" height="69.480" rx="7" fill="#eff5fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="712" y="270.084" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#002060" text-anchor="start">对象级 View All → 绕过记录共享设置</text>
+    <text x="712" y="286.296" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">审计用户可查看该对象的记录。全局权限的授权范围更广。</text>
+    <rect x="700" y="341.880" width="532" height="77.200" rx="7" fill="#f3f0fb" stroke="#dde1e5" stroke-width="1" />
+    <text x="712" y="359.636" font-family="微软雅黑" font-size="12.60" font-weight="700" fill="#2d1b4e" text-anchor="start">适用限制规则 → 筛选已获访问的记录</text>
+    <text x="712" y="375.848" font-family="微软雅黑" font-size="11.70" font-weight="400" fill="#24292f" text-anchor="start">记录共享打开候选访问范围。符合条件的用户仍可能被进一步筛选。</text>
+    <text x="700" y="470.804" font-family="微软雅黑" font-size="11.00" font-weight="400" fill="#60666d" text-anchor="start">图示用于理解权限职责，节点排列表示检查顺序。</text>
+  </g>
+  <rect x="48" y="512" width="1184" height="106" rx="7" fill="#f6f7f8" stroke="#dde1e5" stroke-width="1" />
+  <text x="62" y="530" font-family="微软雅黑" font-size="13" font-weight="700" fill="#002060" text-anchor="start">机制说明与验证要点</text>
+  <text x="62" y="548" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">权限集组  [E1]</text>
+  <text x="62" y="561.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">将可复用的对象权限按岗位组合。</text>
+  <text x="351" y="548" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">记录所有权  [E2]</text>
+  <text x="351" y="561.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">所有者仍需具备对象编辑权限。</text>
+  <text x="640" y="548" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">字段表现  [E1]</text>
+  <text x="640" y="561.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">能打开商机的用户仍可能看不到金额。</text>
+  <text x="929" y="548" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">对象级特权  [E1]</text>
+  <text x="929" y="561.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">Modify All 将特权范围限定在指定对象。</text>
+  <text x="62" y="585" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">全局特权  [E1]</text>
+  <text x="62" y="598.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">View All Data 扩展到组织的数据。</text>
+  <text x="351" y="585" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">外部许可证  [E1]</text>
+  <text x="351" y="598.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">高容量用户可按账户或联系人关联匹配。</text>
+  <text x="640" y="585" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">候选集合  [E5]</text>
+  <text x="640" y="598.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">限制规则对用户已有访问进一步筛选。</text>
+  <text x="929" y="585" font-family="微软雅黑" font-size="11" font-weight="700" fill="#002060" text-anchor="start">验证建议  [E1]</text>
+  <text x="929" y="598.2" font-family="微软雅黑" font-size="11.2" font-weight="400" fill="#24292f" text-anchor="start">分别用读取、编辑和字段访问验证同条记录。</text>
+  <rect x="48" y="628" width="1184" height="48" rx="4" fill="#fceff0" />
+  <text x="62" y="656.2" font-family="微软雅黑" font-size="14" font-weight="700" fill="#c00000" text-anchor="start">设计建议｜按用户验证记录、操作和字段三个维度，并单独评审对象级及全局特权。</text>
+</svg>
